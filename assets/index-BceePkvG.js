@@ -24,10 +24,6 @@
     <div class="ambient-noise" aria-hidden="true"></div>
 
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="Milan Tiwari home">
-        <span class="brand__label">Milan Tiwari</span>
-        <span class="brand__meta">AI systems / robotics</span>
-      </a>
       <nav class="site-nav" aria-label="Primary">
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
