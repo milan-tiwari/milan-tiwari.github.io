@@ -17,11 +17,10 @@
       <path d="M2 9h4v12H2z" />
       <path d="M4 5a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
     </svg>
-  `},n=[{label:`Email`,href:`mailto:${e.email}`,icon:t.email},{label:`Phone`,href:`tel:+16024714821`,icon:t.phone},{label:`GitHub`,href:e.github,icon:t.github,external:!0},{label:`LinkedIn`,href:e.linkedin,icon:t.linkedin,external:!0}],r=[`Embodied AI`,`Computer Vision`,`3D Scene Systems`,`Zero-Shot Grasping`,`ML Pipelines`,`Inference APIs`,`Robotics`,`Data Validation`],i=[`I am an M.S. student in Robotics and Autonomous Systems at Arizona State University, focused on embodied AI, computer vision, and machine learning systems that move beyond prototypes into reliable tooling.`,`Across robotics, newsroom infrastructure, and scientific ML, I like building the layer between models and behavior: data pipelines, evaluation loops, reproducible inference, and interfaces that make outputs inspectable by real users.`,`My recent work spans semantic grasping in 3D scenes, AI-assisted local-news ingestion, protein structure prediction workflows, and multi-robot coordination. What ties those projects together is the same systems mindset: make the input pipeline dependable, make the output measurable, and make iteration easier for the people using the system.`],a=[{label:`What I build`,value:`Embodied AI systems, 3D scene understanding workflows, AI-powered data pipelines, and evaluation-first ML tooling.`},{label:`How I work`,value:`I care about systems that can be inspected, benchmarked, and handed to real users, not just models that look good in isolation.`},{label:`What I am looking for`,value:`Summer 2026 internships and new-grad roles in ML engineering, AI systems, and applied robotics.`},{label:`What I enjoy solving`,value:`Problems where machine learning needs surrounding infrastructure: ingestion, validation, inference, evaluation, and a usable interface around the model.`}],o=[{index:`01`,title:`Gaussian Task Grasping`,descriptor:`Zero-shot 3D grasp semantics`,eyebrow:`Featured system / live motion`,summary:`A robotic grasping stack extended with Gaussian Splatting, SigLIP 2, and robot-frame alignment so semantic scene understanding can drive task-oriented manipulation.`,bullets:[`Extended a language-guided grasping pipeline with Gaussian Splatting and SigLIP 2, unlocking zero-shot semantic queries over reconstructed tabletop captures.`,`Built backend switching across original LERF and splatfacto geometry paths, keeping the grasp workflow reusable across scene representations.`,`Designed robot-frame alignment and point-cloud grasp tooling, enabling interactive semantic grasp generation through a live scene UI.`],metrics:[`SigLIP 2 embeddings`,`Gaussian scene backend`,`Nerfstudio + Python`],link:`https://github.com/milan-tiwari/gaussian-task-grasping`,media:{type:`video`,src:`/media/gaussian-task-grasping.mp4`,alt:`Gaussian Task Grasping reconstruction and semantic grasp generation demo`}},{index:`02`,title:`ProteinNet-Hybrid`,descriptor:`Sequence-to-structure inference`,eyebrow:`Featured system / inference pipeline`,summary:`A lightweight Transformer pipeline for protein backbone prediction, packaged for reproducible CPU inference and downstream structural inspection.`,bullets:[`Built a Transformer encoder in PyTorch DDP for ProteinNet CASP12 sequence and evolutionary-profile inputs, reaching 10.15 A validation RMSD after 100 epochs.`,`Packaged checkpoint-resumable training and CPU Docker inference, enabling reproducible PDB and JSON exports for downstream inspection and benchmarking.`,`Benchmarked exported predictions through PyMOL overlays, enabling coarse fold evaluation on CASP12 targets with best-case 2.43 A aligned RMSD.`],metrics:[`ProteinNet CASP12`,`Docker CPU inference`,`PDB / JSON export`],link:`https://github.com/milan-tiwari/Proteinnet-Hybrid`,media:{type:`image`,src:`/media/proteinnet-overlay.png`,alt:`ProteinNet prediction and reference structure overlay rendered in PyMOL`,className:`project-media--contain`}},{index:`03`,title:`ReLIEF-VOR`,descriptor:`Safety-aware relief coordination`,eyebrow:`Featured system / simulation media`,summary:`A weighted-Voronoi multi-robot relief simulator built to model coverage, hotspot assignment, and demand-aware delivery under safety constraints.`,bullets:[`Designed a MATLAB weighted-Voronoi relief simulator with Lloyd coverage, hotspot assignment, and capacitated routing, enabling coordinated supply delivery over a 180 second scenario.`,`Built demand-aware centroid updates and control-barrier safety filtering, enabling live measurement of unmet demand, served coverage, and inter-robot separation.`,`Benchmarked locational cost, served coverage, and refill behavior across runs, enabling quantitative evaluation of hotspot claiming under evolving disaster demand.`],metrics:[`Weighted Voronoi control`,`Control-barrier safety filter`,`MATLAB simulation`],link:`https://github.com/milan-tiwari/Multi-Robot-Disaster-Management`,media:{type:`image`,src:`/media/relief-vor-preview.gif`,alt:`Multi-Robot Disaster Management simulation preview`}}],s=[{role:`Data Storytelling Assistant`,company:`Newswell (Arizona State University)`,period:`Nov 2025 - Present`,points:[`Built and owned a Python + SQLite ingestion pipeline across 14 public sources from RSS, Reddit, and government agendas, generating daily reporter digests from 44 average items and peaks of 79 items/day.`,`Built OpenAI summarization and outbox delivery modules that assemble local-news and government-meeting digests in 5-6 minute scheduled runs for active editorial review.`,`Fixed duplicate-meeting bugs and date-window drift through URL normalization, quality-based deduplication, and post-filters, preventing stale government updates from resurfacing in reporter emails.`,`Added rules-based Reddit relevance scoring and dry-run review checks, reducing noise and making pre-publication QA reproducible before digest release.`]},{role:`Software Engineer`,company:`Patel Motors`,period:`May 2023 - May 2024`,points:[`Built Flask + SQL quotation workflows that automated client quote generation, replacing manual quote assembly with faster and more traceable response handling.`,`Rebuilt the company website with HTML, CSS, JavaScript, and Flask-backed forms, simplifying navigation and connecting inquiries directly to backend quote workflows.`]},{role:`Machine Learning Intern`,company:`Value Matrix`,period:`Sep 2022 - Nov 2022`,points:[`Built components for an eye-movement tracking pipeline and updated evaluation workflows, improving analysis accuracy by 20 percent across internal model runs.`,`Integrated AWS Transcription and a Flask + JavaScript review interface, reducing turnaround from model output to analyst review.`]},{role:`Associate Intern`,company:`Feynn Labs`,period:`Jul 2022 - Sep 2022`,points:[`Built EV market-segmentation analyses from customer and competitor data, enabling reports that identified high-potential customer groups for business strategy.`]}],c=[{label:`Languages`,value:`Python, C++, SQL, JavaScript, MATLAB, C`},{label:`Robotics + Frameworks`,value:`ROS, PyTorch, OpenCV, Nerfstudio, Gazebo, TensorFlow, TensorFlow Lite, Flask`},{label:`AI / ML Concepts`,value:`Embodied AI, Gaussian Splatting, Zero-Shot Grasping, Computer Vision, LLMs, Reinforcement Learning, Deep Learning`},{label:`Tools + Infrastructure`,value:`Git, Docker, AWS, SQLite, Hugging Face, MATLAB Simulink`}];document.querySelector(`#app`).innerHTML=`
+  `},n=[{label:`Email`,href:`mailto:${e.email}`,icon:t.email},{label:`Phone`,href:`tel:+16024714821`,icon:t.phone},{label:`GitHub`,href:e.github,icon:t.github,external:!0},{label:`LinkedIn`,href:e.linkedin,icon:t.linkedin,external:!0}],r=[`01 // EMBODIED AI`,`02 // COMPUTER VISION`,`03 // 3D SCENE SYSTEMS`,`04 // ZERO-SHOT GRASPING`,`05 // ML PIPELINES`,`06 // INFERENCE APIS`,`07 // ROBOTICS`,`08 // DATA VALIDATION`],i=[`I am an M.S. student in Robotics and Autonomous Systems at Arizona State University, focused on embodied AI, computer vision, and machine learning systems that move beyond prototypes into reliable tooling.`,`Across robotics, newsroom infrastructure, and scientific ML, I like building the layer between models and behavior: data pipelines, evaluation loops, reproducible inference, and interfaces that make outputs inspectable by real users.`,`My recent work spans semantic grasping in 3D scenes, AI-assisted local-news ingestion, protein structure prediction workflows, and multi-robot coordination. What ties those projects together is the same systems mindset: make the input pipeline dependable, make the output measurable, and make iteration easier for the people using the system.`],a=[{label:`What I build`,value:`Embodied AI systems, 3D scene understanding workflows, AI-powered data pipelines, and evaluation-first ML tooling.`},{label:`How I work`,value:`I care about systems that can be inspected, benchmarked, and handed to real users, not just models that look good in isolation.`},{label:`What I am looking for`,value:`Summer 2026 internships and new-grad roles in ML engineering, AI systems, and applied robotics.`},{label:`What I enjoy solving`,value:`Problems where machine learning needs surrounding infrastructure: ingestion, validation, inference, evaluation, and a usable interface around the model.`}],o=[{index:`01`,title:`Gaussian Task Grasping`,descriptor:`Zero-shot 3D grasp semantics`,eyebrow:`Featured system / live motion`,summary:`A robotic grasping stack extended with Gaussian Splatting, SigLIP 2, and robot-frame alignment so semantic scene understanding can drive task-oriented manipulation.`,bullets:[`Extended a language-guided grasping pipeline with Gaussian Splatting and SigLIP 2, unlocking zero-shot semantic queries over reconstructed tabletop captures.`,`Built backend switching across original LERF and splatfacto geometry paths, keeping the grasp workflow reusable across scene representations.`,`Designed robot-frame alignment and point-cloud grasp tooling, enabling interactive semantic grasp generation through a live scene UI.`],metrics:[`SigLIP 2 embeddings`,`Gaussian scene backend`,`Nerfstudio + Python`],link:`https://github.com/milan-tiwari/gaussian-task-grasping`,media:{type:`video`,src:`/media/gaussian-task-grasping.mp4`,alt:`Gaussian Task Grasping reconstruction and semantic grasp generation demo`}},{index:`02`,title:`ProteinNet-Hybrid`,descriptor:`Sequence-to-structure inference`,eyebrow:`Featured system / inference pipeline`,summary:`A lightweight Transformer pipeline for protein backbone prediction, packaged for reproducible CPU inference and downstream structural inspection.`,bullets:[`Built a Transformer encoder in PyTorch DDP for ProteinNet CASP12 sequence and evolutionary-profile inputs, reaching 10.15 A validation RMSD after 100 epochs.`,`Packaged checkpoint-resumable training and CPU Docker inference, enabling reproducible PDB and JSON exports for downstream inspection and benchmarking.`,`Benchmarked exported predictions through PyMOL overlays, enabling coarse fold evaluation on CASP12 targets with best-case 2.43 A aligned RMSD.`],metrics:[`ProteinNet CASP12`,`Docker CPU inference`,`PDB / JSON export`],link:`https://github.com/milan-tiwari/Proteinnet-Hybrid`,media:{type:`image`,src:`/media/proteinnet-overlay.png`,alt:`ProteinNet prediction and reference structure overlay rendered in PyMOL`,className:`project-media--contain`}},{index:`03`,title:`ReLIEF-VOR`,descriptor:`Safety-aware relief coordination`,eyebrow:`Featured system / simulation media`,summary:`A weighted-Voronoi multi-robot relief simulator built to model coverage, hotspot assignment, and demand-aware delivery under safety constraints.`,bullets:[`Designed a MATLAB weighted-Voronoi relief simulator with Lloyd coverage, hotspot assignment, and capacitated routing, enabling coordinated supply delivery over a 180 second scenario.`,`Built demand-aware centroid updates and control-barrier safety filtering, enabling live measurement of unmet demand, served coverage, and inter-robot separation.`,`Benchmarked locational cost, served coverage, and refill behavior across runs, enabling quantitative evaluation of hotspot claiming under evolving disaster demand.`],metrics:[`Weighted Voronoi control`,`Control-barrier safety filter`,`MATLAB simulation`],link:`https://github.com/milan-tiwari/Multi-Robot-Disaster-Management`,media:{type:`image`,src:`/media/relief-vor-preview.gif`,alt:`Multi-Robot Disaster Management simulation preview`}}],s=[{role:`Data Storytelling Assistant`,company:`Newswell (Arizona State University)`,period:`Nov 2025 - Present`,points:[`Built and owned a Python + SQLite ingestion pipeline across 14 public sources from RSS, Reddit, and government agendas, generating daily reporter digests from 44 average items and peaks of 79 items/day.`,`Built OpenAI summarization and outbox delivery modules that assemble local-news and government-meeting digests in 5-6 minute scheduled runs for active editorial review.`,`Fixed duplicate-meeting bugs and date-window drift through URL normalization, quality-based deduplication, and post-filters, preventing stale government updates from resurfacing in reporter emails.`,`Added rules-based Reddit relevance scoring and dry-run review checks, reducing noise and making pre-publication QA reproducible before digest release.`]},{role:`Software Engineer`,company:`Patel Motors`,period:`May 2023 - May 2024`,points:[`Built Flask + SQL quotation workflows that automated client quote generation, replacing manual quote assembly with faster and more traceable response handling.`,`Rebuilt the company website with HTML, CSS, JavaScript, and Flask-backed forms, simplifying navigation and connecting inquiries directly to backend quote workflows.`]},{role:`Machine Learning Intern`,company:`Value Matrix`,period:`Sep 2022 - Nov 2022`,points:[`Built components for an eye-movement tracking pipeline and updated evaluation workflows, improving analysis accuracy by 20 percent across internal model runs.`,`Integrated AWS Transcription and a Flask + JavaScript review interface, reducing turnaround from model output to analyst review.`]},{role:`Associate Intern`,company:`Feynn Labs`,period:`Jul 2022 - Sep 2022`,points:[`Built EV market-segmentation analyses from customer and competitor data, enabling reports that identified high-potential customer groups for business strategy.`]}],c=[{label:`Languages`,value:`Python, C++, SQL, JavaScript, MATLAB, C`},{label:`Robotics + Frameworks`,value:`ROS, PyTorch, OpenCV, Nerfstudio, Gazebo, TensorFlow, TensorFlow Lite, Flask`},{label:`AI / ML Concepts`,value:`Embodied AI, Gaussian Splatting, Zero-Shot Grasping, Computer Vision, LLMs, Reinforcement Learning, Deep Learning`},{label:`Tools + Infrastructure`,value:`Git, Docker, AWS, SQLite, Hugging Face, MATLAB Simulink`}];document.querySelector(`#app`).innerHTML=`
   <div class="page-shell">
-    <div class="ambient-orb ambient-orb--one" aria-hidden="true"></div>
-    <div class="ambient-orb ambient-orb--two" aria-hidden="true"></div>
-    <div class="ambient-noise" aria-hidden="true"></div>
+    <div class="brutal-grid" aria-hidden="true"></div>
+    <div class="scanline-layer" aria-hidden="true"></div>
 
     <header class="site-header">
       <nav class="site-nav" aria-label="Primary">
@@ -37,22 +36,22 @@
     <main id="top">
       <section class="hero">
         <div class="hero__copy" data-reveal>
-          <div class="hero__badge">
+          <div class="hero__badge status-chip">
             <span class="hero__badge-dot"></span>
-            <span>Available for Summer 2026 ML + AI systems roles</span>
+            <span>STATUS: AVAILABLE_SUMMER_2026</span>
           </div>
-          <p class="hero__eyebrow">${e.label}</p>
-          <h1>
-            Engineering <span>digital trust</span> for embodied intelligence.
+          <p class="hero__eyebrow">SYSTEM_USER / ${e.label}</p>
+          <h1 data-text="${e.name}">
+            ${e.name}
           </h1>
           <p class="hero__lede">
             I build machine learning systems that move from raw data to testable behavior:
-            newsroom ingestion pipelines, zero-shot 3D grasping workflows, protein inference
-            tooling, and multi-robot decision systems with measurable outcomes.
+            ingestion pipelines, zero-shot 3D grasping workflows, protein inference tooling,
+            and multi-robot decision systems with measurable outcomes.
           </p>
           <div class="hero__actions">
-            <a class="button button--primary" href="#projects">View projects</a>
-            <a class="button button--outline" href="${e.resume}" target="_blank" rel="noreferrer">Download resume</a>
+            <a class="button button--primary" href="#projects"><span>View projects</span></a>
+            <a class="button button--outline" href="${e.resume}" target="_blank" rel="noreferrer"><span>Download resume</span></a>
           </div>
           <div class="contact-icons contact-icons--hero" aria-label="Contact links">
             ${n.map(e=>`
@@ -66,6 +65,7 @@
 
         <div class="hero__visual" data-reveal>
           <div class="hero-portrait">
+            <div class="hero-portrait__tag">ID_PROFILE / MILAN.TIWARI</div>
             <div class="hero-portrait__frame">
               <img
                 class="hero-portrait__image"
@@ -104,8 +104,8 @@
 
       <section class="about" id="about">
         <div class="section-copy" data-reveal>
-          <p class="section-kicker">About me</p>
-          <h2>Research depth, production instincts, and a bias toward systems people can trust.</h2>
+          <p class="section-kicker">/ABOUT_PROTOCOL</p>
+          <h2>Research depth, production instincts, and systems people can trust.</h2>
         </div>
         <div class="about__grid">
           <div class="about__story" data-reveal>
@@ -124,7 +124,7 @@
 
       <section class="projects" id="projects">
         <div class="section-copy" data-reveal>
-          <p class="section-kicker">Featured projects</p>
+          <p class="section-kicker">/PROJECT_DIRECTORY</p>
           <h2>Systems designed to observe, infer, and act in uncertain environments.</h2>
         </div>
 
@@ -135,7 +135,7 @@
                     <div class="project-block__frame">
                       <div class="project-block__frame-head">
                         <div class="project-block__frame-meta">
-                          <span class="project-block__index">${e.index}</span>
+                          <span class="project-block__index">PROJECT_${e.index}</span>
                           <a href="${e.link}" target="_blank" rel="noreferrer">GitHub</a>
                         </div>
                       </div>
@@ -171,7 +171,7 @@
 
       <section class="experience" id="experience">
         <div class="section-copy" data-reveal>
-          <p class="section-kicker">Professional ledger</p>
+          <p class="section-kicker">/WORK_LOG</p>
           <h2>Production-minded work across data, software, and machine intelligence.</h2>
         </div>
 
@@ -201,7 +201,7 @@
 
       <section class="capabilities" id="capabilities">
         <div class="section-copy" data-reveal>
-          <p class="section-kicker">Capabilities</p>
+          <p class="section-kicker">/CAPABILITY_STACK</p>
           <h2>Tools, frameworks, and concepts that power the build loop.</h2>
         </div>
         <div class="capability-list" data-reveal>
@@ -220,14 +220,14 @@
             <img src="/media/milan-portrait.png" alt="" loading="lazy" />
           </div>
           <div class="contact__content">
-            <p class="section-kicker">Contact</p>
+            <p class="section-kicker">/CONNECT</p>
             <h2>Open to ML engineering, AI data systems, and embodied AI roles where reliability matters.</h2>
             <p class="contact__lede">
               If the work needs to move from experimentation into something people can trust, I’m interested.
             </p>
             <div class="hero__actions contact__actions">
-              <a class="button button--primary" href="mailto:${e.email}">Start a conversation</a>
-              <a class="button button--outline" href="${e.resume}" target="_blank" rel="noreferrer">Download resume</a>
+              <a class="button button--primary" href="mailto:${e.email}"><span>Start a conversation</span></a>
+              <a class="button button--outline" href="${e.resume}" target="_blank" rel="noreferrer"><span>Download resume</span></a>
             </div>
             <div class="contact-icons contact-icons--footer" aria-label="Contact links">
               ${n.map(e=>`
